@@ -60,3 +60,4 @@ To open create a new flutter project, following these steps:
 
 6. Click `Create` Button. 
 
+More details stated in [【Flutter基礎概念與實作】 Day6–Flutter Hello World!](https://ithelp.ithome.com.tw/articles/10215523)
