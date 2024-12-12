@@ -3,7 +3,7 @@ MaterialApp is a class that create a material for UI in App.
 
 It has several parameter.
 
-+ `homepage`: the word is self-explanatory, it deterimes what then UI homepage will looks like and how it responses for user action.
++ `home`: the word is self-explanatory, it deterimes what then UI homepage will looks like and how it responses for user action.
 + `title`: The title of the app. You can consider it as app's name. It will not display on UI.
 + `theme`: The theme that the app will be used.
 + `debugShowCheckedModeBanner`: Stated on docs in projects
