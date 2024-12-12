@@ -20,6 +20,11 @@ The block in `main` function will be executed once you run the app. You can thin
 > [!NOTE]
 > Very importance notice that you have to take it in mind.
 >
-> 1. **Neither** edit and modify file except for `lib\main.dart`, **nor** , and create new file, **nor** change the file name, if not neccessary (especially you **DON'T** know what it does). Otherwise, you may accidentally encounter an error and thus it may take you for a long time to solve it.
+> **Neither** edit and modify file except for `lib\main.dart`, **nor** , and create new file, **nor** change the file name, if not neccessary (especially you **DON'T** know what it does).
+> 
+> Otherwise, you may accidentally encounter an error and thus it may take you for a long time to solve it. 
+ 
+> [!NOTE]
+> Very importance notice that you have to take it in mind.
 >
-> 2. 
+> In `lib\main.dart`, it MUST contain exactly one entry point -- `main` function. Otherwise, you will get a compiler error or runtime error.
