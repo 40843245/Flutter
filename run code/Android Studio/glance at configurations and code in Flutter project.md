@@ -16,3 +16,10 @@ The block in `main` function will be executed once you run the app. You can thin
   - `flutter`: configurations to Flutter packages.
  
   etc.
+
+> [!NOTE]
+> Very importance notice that you have to take it in mind.
+>
+> 1. **Neither** edit and modify file except for `lib\main.dart`, **nor** , and create new file, **nor** change the file name, if not neccessary (especially you **DON'T** know what it does). Otherwise, you may accidentally encounter an error and thus it may take you for a long time to solve it.
+>
+> 2. 
