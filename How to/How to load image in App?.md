@@ -1,5 +1,5 @@
 # How to load image in App?
-## For local device
+## From local device
 To load a local device that develops app, follow these steps.
 
 1. Put your image under `assets` folder.
