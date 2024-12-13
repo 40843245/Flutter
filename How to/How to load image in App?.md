@@ -2,9 +2,11 @@
 ## For local device
 To load a local device that develops app, follow these steps.
 
-1. Specify your image in assets field in `pubspec.yaml`. 
+1. Put your image under `assets` folder.
+ 
+2. Specify your image in assets field in `pubspec.yaml`. 
 
-2. Load image with `Image.assets` static method.
+3. Load image with `Image.assets` static method.
 
 ### example
 
