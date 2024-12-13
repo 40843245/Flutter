@@ -1,4 +1,4 @@
-# How to load text?
+# How to load text in App?
 ## preface
 Here I will discuss how to load string. It does NOT apply for other non-string object.
 
