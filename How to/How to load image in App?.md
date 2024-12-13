@@ -71,8 +71,31 @@ Image.assets(
 //...
 ```
 
+## From an Url
+To load an image from an Url, simply use `Image.network` constructor.
+
+It also useful for animated gifs
+
+### examples
+#### example 1
+To load an image from `https://picsum.photos/250?image=9`
+
+```
+Image.network('https://picsum.photos/250?image=9');
+```
+
+#### example 2
+
+To load an image from `https://docs.flutter.dev/assets/images/dash/dash-fainting.gif`
+
+```
+Image.network('https://docs.flutter.dev/assets/images/dash/dash-fainting.gif');
+```
+
 ## reference
 
 For how to add images to assets, see [Adding assets and images](https://docs.flutter.dev/ui/assets/assets-and-images)
 
 For how to load images, see [How to add image in Flutter? (stackoverflow)](https://stackoverflow.com/questions/50903106/how-to-add-image-in-flutter)
+
+For how to load images from Url, see [Display images from the internet](https://docs.flutter.dev/cookbook/images/network-image)
