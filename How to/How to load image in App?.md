@@ -6,8 +6,33 @@ To load a local device that develops app, follow these steps.
  
 2. Specify your image in assets field in `pubspec.yaml`. 
 
-3. Load image with `Image.assets` static method.
+3. Load image with one of following approach.
+   3.1  Invoke `Image.assets` static method.
+   3.2  In a widget's build() method, you can also use `AssetImage` class. The following code snippets looks like this.
 
+    ```
+    return const Image(image: AssetImage('assets/background.png'));
+    ```
+
+    > [!NOTE]
+    > If the image depends on package in dependency, you must specify `package` argument in `AssetImage` class.
+    >
+
+   For instance, suppose your application depends on a package called my_icons, which has the following directory structure:
+
+   ```
+   .../pubspec.yaml
+   .../icons/heart.png
+   .../icons/1.5x/heart.png
+   .../icons/2.0x/heart.png
+   ...etc.
+   ```
+
+   To load the image, use:
+
+   ```
+   return const AssetImage('icons/heart.png', package: 'my_icons');
+   ```
 ### example
 
 For example,
